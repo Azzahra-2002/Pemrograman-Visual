@@ -1,0 +1,38 @@
+Karima Azzahra Karim@Azzahra MINGW64 /d/Document/Pemrograman Visual
+$ git init
+Initialized empty Git repository in D:/Document/Pemrograman Visual/.git/
+
+Karima Azzahra Karim@Azzahra MINGW64 /d/Document/Pemrograman Visual (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+Karima Azzahra Karim@Azzahra MINGW64 /d/Document/Pemrograman Visual (master)
+$ git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Karima Azzahra Karim@Azzahra.(none)')
+
+Karima Azzahra Karim@Azzahra MINGW64 /d/Document/Pemrograman Visual (master)
+$ git config --global user.email "karimaazzahra09@gmail.com"
+
+Karima Azzahra Karim@Azzahra MINGW64 /d/Document/Pemrograman Visual (master)
+$ git config --global user.name "Azzahra-2002"
+
+Karima Azzahra Karim@Azzahra MINGW64 /d/Document/Pemrograman Visual (master)
+$ git branch -M main
+
+Karima Azzahra Karim@Azzahra MINGW64 /d/Document/Pemrograman Visual (main)
+$ git remote add origin https://github.com/Azzahra-2002/Pemrograman-Visual.git
+
+Karima Azzahra Karim@Azzahra MINGW64 /d/Document/Pemrograman Visual (main)
+$ git push -u origin main
